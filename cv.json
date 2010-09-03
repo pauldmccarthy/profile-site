@@ -1,0 +1,20 @@
+{
+  "cv" : [
+    { "date": "2002-2006", 
+      "title": "Masters (CompSci) University of South Australia",
+      "desc": "I completed a Bachelor of Computer Science, achieving first class Honours in<br/>2005. I decided to stay on for a little longer, and 'upgrade' my Honours <br/>degree to a Masters by coursework. My Honours thesis concerned the forensic<br/>analysis of mobile phones; I gained a lot of useful experience in text and <br/>binary communication protocols by playing with mobile phones. Some of the <br/>more enjoyable projects were implememting the OBEX data exchange protocol <br/>in Java, and reverse engineering the proprietary Nokia FBUS protocol."
+    },
+    { "date": "2006-2007", 
+      "title":"Software Engineer, Australian Defence Force Academy (UNSW), Canberra, ACT, Australia",
+      "desc": "I worked on a number of projects at ADFA, including the development of a<br/>simulation program for crowd behaviour in panic situations, using a particle<br/>physics model. I also developed a social network simulation program, which <br/>provided me with valuable experience in algorithmic graph theory."
+    },
+    { "date": "2007-2010", 
+      "title":"Software Engineer, CSIRO Tasmanian ICT Centre, Hobart, Tasmania, Australia",
+      "desc" :"I worked on a variety of projects at CSIRO, including back end database<br/>systems in Java, microcontroller electronics and programming in C and<br/>assembler, and oceanographic data processing in Matlab (<a href=\"http://code.google.com/p/imos-toolbox/\">IMOS Toolbox</a>)<br/>Some of my more enjoyable moments were the design and development of a<br/>binary multi-hop communication protocol for use in under water acoustic<br/>sensor networks, the implementation of a bootloader for an AVR<br/>microcontroller, with wireless capabilities, which used than 8 kilobytes<br/>of RAM, and the design and development of a low cost marine sensor node,<br/>incorporating short range radio, GPS and 3G communication."
+    },
+    { "date": "2010-present", 
+      "title":"PhD student at the University of Otago, Dunedin, New Zealand",
+      "desc": "I am currently trying to apply graph theory techniques to the analysis of<br/>brain imaging (fMRI and EEG) data. I've found myself learning a lot about<br/>time series analysis and signal processing, as it's all about trying to find<br/>correlations and associations in the raw data; these correlations are then<br/>used to define edge locations and weights in the graph representing the data."
+    }
+  ]
+}

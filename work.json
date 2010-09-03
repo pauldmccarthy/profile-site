@@ -1,0 +1,22 @@
+{
+  "work" : [
+    { "title":"Friday AI 4-5, August 13, 2010",
+      "desc":"A brief presentation on my work so far,<br/>given to my colleagues in the AI lab.",
+      "resources":[
+        { "title":"slides",
+          "href":"docs/aug_13_pres.pdf"
+        }
+      ],
+      "links":[]
+    },
+    { "title":"Clustering coefficient and path length in ring-lattices",
+      "desc":"A short and simple derivation I worked on, under review for publication in the Journal of Combinatorial Theory B. I doubt it will get published, but I thought I'd try anyway.",
+      "resources":[
+        { "title":"paper",
+          "href":"docs/clustering.pdf"
+        }
+      ],
+      "links":[]
+    }
+  ]
+}

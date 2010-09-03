@@ -1,0 +1,64 @@
+{
+  "hobbies" : [
+    { "name":"snowboarding",
+      "images": [
+        {
+          "href" : "images/mt_field.jpg" ,
+          "title" : "Golden Staircase, Mount Field, Tasmania, August 2009" 
+        },
+        {
+          "href" : "images/captain.jpg",
+          "title" : "The Captain, Mount Field, Tasmania, September 2009"
+        },
+        {
+          "href" : "images/gondola.jpg",
+          "title" : "Rusutsu, Hokkaido, Japan, February 2010"
+        }
+      ]
+    },
+    { "name":"bushwalking",
+      "images": [
+        {
+          "href" : "images/lost_world.jpg" ,
+          "title" : "Hobart from Lost World, Mount Wellington, Tasmania, December 2009" 
+        },
+        {
+          "href" : "images/cathedral.jpg",
+          "title" : "Cathedral Rock, Mount Wellington, Tasmania, October 2009"
+        },
+        {
+          "href" : "images/adamsons.jpg",
+          "title" : "Adamsons Peak, South West Tasmania, March 2010"
+        },
+        {
+          "href" : "images/raoul.jpg",
+          "title" : "Cape Raoul, Tasman Peninsula, Tasmania, January 2010"
+        }
+      ]
+    },
+    { "name":"cycling",
+      "images": [
+        {
+          "href" : "images/bruny.jpg" ,
+          "title" : "Stafford's Road, Bruny Island, Tasmania, January 2010" 
+        },
+        {
+          "href" : "images/kellevie.jpg" ,
+          "title" : "Kellevie 6 hour, Tasmania, February 2010" 
+        },
+        {
+          "href" : "images/tekapo.jpg" ,
+          "title" : "MTB Pursuit, Lake Tekapo, New Zealand, June 2010" 
+        },
+        {
+          "href" : "images/contact.jpg" ,
+          "title" : "Contact Epic, Lake Hawea, New Zealand, April 2010" 
+        }
+      ]
+    },
+
+    { "name":"rock climbing",                "images":[] },
+    { "name":"microcontrollers/electronics", "images":[] },
+    { "name":"acoustic guitar",              "images":[] }
+  ]
+}
