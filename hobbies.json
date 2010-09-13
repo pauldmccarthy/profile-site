@@ -13,6 +13,10 @@
         {
           "href" : "images/gondola.jpg",
           "title" : "Rusutsu, Hokkaido, Japan, February 2010"
+        },
+        {
+          "href" : "images/awakino.jpg",
+          "title" : "Awakino ridge tow, New Zealand, September 2010"
         }
       ]
     },
@@ -57,7 +61,14 @@
       ]
     },
 
-    { "name":"rock climbing",                "images":[] },
+    { "name":"rock climbing",
+      "images":[
+        {
+          "href" : "images/longbeach.jpg",
+          "title" : "Long Beach, Dunedin, New Zealand, August 2010"
+        }
+      ]
+    },
     { "name":"microcontrollers/electronics", "images":[] },
     { "name":"acoustic guitar",              "images":[] }
   ]
