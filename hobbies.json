@@ -23,6 +23,18 @@
     { "name":"bushwalking",
       "images": [
         {
+          "href":"images/gokyo_from_renjo_la.jpg",
+          "title":"Gokyo from Renjo La Pass, Nepal, October 2010"
+        },
+        {
+          "href":"images/everest_from_fifth_lake.jpg",
+          "title":"Mt Everest from Fifth Lake (near Gokyo), Nepal, October 2010"
+        },
+        {
+          "href":"images/chhukung_ri.jpg",
+          "title":"View from Chhukung Ri (Ama Dablam left of centre, Nuptse far right), Nepal, October 2010"
+        },
+        {
           "href" : "images/lost_world.jpg" ,
           "title" : "Hobart from Lost World, Mount Wellington, Tasmania, December 2009" 
         },
@@ -52,11 +64,11 @@
         },
         {
           "href" : "images/tekapo.jpg" ,
-          "title" : "MTB Pursuit, Lake Tekapo, New Zealand, June 2010" 
+          "title" : "MTB Pursuit, Lake Tekapo, June 2010" 
         },
         {
           "href" : "images/contact.jpg" ,
-          "title" : "Contact Epic, Lake Hawea, New Zealand, April 2010" 
+          "title" : "Contact Epic, Lake Hawea, April 2010" 
         }
       ]
     },
@@ -64,8 +76,12 @@
     { "name":"rock climbing",
       "images":[
         {
+          "href" : "images/mihiwaka.jpg",
+          "title" : "James leading 'deep, Wide and Frequent', Mihiwaka, Dunedin, November2010"
+        },
+        {
           "href" : "images/longbeach.jpg",
-          "title" : "Long Beach, Dunedin, New Zealand, August 2010"
+          "title" : "Long Beach, Dunedin, August 2010"
         }
       ]
     },
