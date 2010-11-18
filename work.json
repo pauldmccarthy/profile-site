@@ -10,7 +10,7 @@
       "links":[]
     },
     { "title":"Clustering coefficient and path length in ring-lattices",
-      "desc":"A short and simple derivation I worked on, under review for publication in the Journal of Combinatorial Theory B. I doubt it will get published, but I thought I'd try anyway.",
+      "desc":"A short and simple derivation I worked on, which was probably too short and simple to publish anywhere.",
       "resources":[
         { "title":"paper",
           "href":"docs/clustering.pdf"
