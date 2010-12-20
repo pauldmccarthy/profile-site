@@ -76,8 +76,12 @@
     { "name":"rock climbing",
       "images":[
         {
+          "href" : "images/roadside.jpg",
+          "title" : "'Shortcut to Exposure', Roadside Attraction, Wanaka, December 2010"
+        },
+        {
           "href" : "images/mihiwaka.jpg",
-          "title" : "James leading 'deep, Wide and Frequent', Mihiwaka, Dunedin, November 2010"
+          "title" : "'Deep, Wide and Frequent', Mihiwaka, Dunedin, November 2010"
         },
         {
           "href" : "images/longbeach.jpg",
