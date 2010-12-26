@@ -23,6 +23,10 @@
     { "name":"bushwalking",
       "images": [
         {
+          "href":"images/west_matukituki.jpg",
+          "title":"West Matukituki valley, New Zealand, December 2010"
+        },
+        {
           "href":"images/gokyo_from_renjo_la.jpg",
           "title":"Gokyo from Renjo La Pass, Nepal, October 2010"
         },
