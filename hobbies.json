@@ -23,6 +23,10 @@
     { "name":"bushwalking",
       "images": [
         {
+          "href":"images/hopkins_valley.jpg",
+          "title":"Hopkins Valley on the way to Dasler Pinnacles, New Zealand, January 2011"
+        },
+        {
           "href":"images/bonpland.jpg",
           "title":"Mt Bonpland, New Zealand, January 2011"
         },
