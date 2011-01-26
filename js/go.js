@@ -355,7 +355,7 @@ nodeColor = function(dot) {
     if (dot.altColor && 
         this.i() == this.index) return dot.altColor;
     else                        return dot.color;
-p  }
+  }
   if (dot.click) { 
     if (this.i() == this.index) return "#ffaaaa";
     else                        return "#ffdddd";
