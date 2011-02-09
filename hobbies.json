@@ -67,6 +67,10 @@
     { "name":"cycling",
       "images": [
         {
+          "href" : "images/otago.jpg" ,
+          "title" : "Otago Peninsula Challenge, Dunedin, February 2011"
+        },
+        {
           "href" : "images/bruny.jpg" ,
           "title" : "Stafford's Road, Bruny Island, Tasmania, January 2010" 
         },
