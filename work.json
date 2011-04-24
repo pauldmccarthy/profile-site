@@ -1,7 +1,7 @@
 {
   "work" : [
     { "title":"Friday AI 4-5, August 13, 2010",
-      "desc":"A brief presentation on my work so far,<br/>given to my colleagues in the AI lab.",
+      "desc":"A brief presentation on my work so far, given to my colleagues in the AI lab.",
       "resources":[
         { "title":"slides",
           "href":"docs/aug_13_pres.pdf"
@@ -24,6 +24,18 @@
       "resources":[
         { "title":"poster",
           "href":"docs/brisbane_poster_2010.pdf"
+        }
+      ],
+      "links":[]
+    },
+    { "title":"NZCSRSC 2011, Massey University, Palmerston North",
+      "desc":"A paper, and the associated presentation slides, submitted to the New Zealand Computer Science Research Conference 2011, held at Massey University in Palmerston North, over April the 18th to the 21st. ",
+      "resources":[
+        { "title":"paper",
+          "href":"docs/nzcsrsc_2011_paper.pdf"
+        },
+        { "title":"presentation",
+          "href":"docs/nzcsrsc_2011_presentation.pdf"
         }
       ],
       "links":[]
