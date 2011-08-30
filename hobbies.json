@@ -3,20 +3,24 @@
     { "name":"snowboarding",
       "images": [
         {
-          "href" : "images/mt_field.jpg" ,
-          "title" : "Golden Staircase, Mount Field, Tasmania, August 2009" 
+          "href" : "images/splitboard.jpg",
+          "title" : "Splitboard touring at Awakino, New Zealand, August 2011"
         },
         {
-          "href" : "images/captain.jpg",
-          "title" : "The Captain, Mount Field, Tasmania, September 2009"
+          "href" : "images/awakino.jpg",
+          "title" : "Awakino ridge tow, New Zealand, September 2010"
         },
         {
           "href" : "images/gondola.jpg",
           "title" : "Rusutsu, Hokkaido, Japan, February 2010"
         },
         {
-          "href" : "images/awakino.jpg",
-          "title" : "Awakino ridge tow, New Zealand, September 2010"
+          "href" : "images/captain.jpg",
+          "title" : "The Captain, Mount Field, Tasmania, September 2009"
+        },
+        {
+          "href" : "images/mt_field.jpg" ,
+          "title" : "Golden Staircase, Mount Field, Tasmania, August 2009" 
         }
       ]
     },

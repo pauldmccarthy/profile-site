@@ -39,6 +39,15 @@
         }
       ],
       "links":[]
+    },
+    { "title":"CS Postgrad Symposium, August 29, 2011",
+      "desc":"Slides from my talk given at our internal 2011 Postgrad Symposium.",
+      "resources":[
+        { "title":"presentation",
+          "href":"docs/postgrad_2011_presentation.pdf"
+        }
+      ],
+      "links":[]
     }
   ]
 }
