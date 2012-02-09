@@ -48,7 +48,17 @@
         }
       ],
       "links":[]
-    }
+    },
+    {
+      "title":"5th Australian Workshop on Computational Neuroscience (December 2011)",
+      "desc":"A presentation I gave at the 5th Australian Workshop on Computational Neuroscience (December 13-14, 2011), held at the University of Western Sydney.",
+      "resources":[
+        { "title":"presentation",
+          "href":"docs/sydney_awcn_2011_presentation.pdf"
+        }
+      ],
+      "links":[]
+    },
   ]
 }
 
