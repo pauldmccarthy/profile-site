@@ -58,6 +58,39 @@
         }
       ],
       "links":[]
+    },
+    {
+      "title":"Path-sharing: a new betweenness measure for community identification in networks (IEEE CEC, June 2012)",
+      "desc":"I became obsessed with graph based community/cluster identification for a short while, and came up with a little equation which gives an indication of the strength that the edges in a graph join clusters. The paper was published at the IEEE Congress on Evolutionary Computation, held in Brisbane, June 2012. I haven't really had time to apply community identification to my PhD work, so am not quite sure if this will even make it into my thesis. It was fun though. I also presented this poster at the NZCSRSC 2012 student conference, held at Otago.",
+      "resources":[
+        { "title":"paper",
+          "href":"docs/brisbane_cec_2012_path_sharing_paper.pdf"
+        },
+        { "title":"poster",
+          "href":"docs/brisbane_cec_2012_path_sharing_poster.pdf"
+        }
+      ],
+      "links":[]
+    },
+    {
+      "title":"Graph theoretical analysis of functional connectivity in the brain (IEEE IJCNN, June 2012)",
+      "desc":"Whilst in Brisbane for the IEEE CEC, I also presented a poster giving an overview of the ways in which I am applying graph theory to the analysis of functional connectivity in fMRI data.",
+      "resources":[
+        { "title":"poster",
+          "href":"docs/brisbane_ijcnn_2012_poster.pdf"
+        }
+      ],
+      "links":[]
+    },
+    {
+      "title":"Statistical analysis of fMRI data",
+      "desc":"A presentation I gave to colleagues in the AI lab, in June 2012.",
+      "resources":[
+        { "title":"presentation",
+          "href":"docs/ai_lab_pres_june_2012.pdf"
+        }
+      ],
+      "links":[]
     }
   ]
 }

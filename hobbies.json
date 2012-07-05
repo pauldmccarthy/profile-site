@@ -24,7 +24,7 @@
         }
       ]
     },
-    { "name":"bushwalking",
+    { "name":"tramping/bushwalking",
       "images": [
         {
           "href":"images/sunrise_sisyphus.jpg",
@@ -100,16 +100,16 @@
     { "name":"rock climbing",
       "images":[
         {
-          "href" : "images/roadside.jpg",
-          "title" : "'Shortcut to Exposure', Roadside Attraction, Wanaka, December 2010"
+          "href" : "images/fjordland_gertrude.jpg",
+          "title" : "Bog farmer slabs, Fiordland, March 2012"
         },
         {
-          "href" : "images/mihiwaka.jpg",
-          "title" : "'Deep, Wide and Frequent', Mihiwaka, Dunedin, November 2010"
+          "href" : "images/sunnyside.jpg",
+          "title" : "Wanaka, March 2012"
         },
         {
-          "href" : "images/longbeach.jpg",
-          "title" : "Long Beach, Dunedin, August 2010"
+          "href" : "images/aretenophobia.jpg",
+          "title" : "'Aretenophobia', Wanaka, December 2011"
         }
       ]
     }
