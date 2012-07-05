@@ -99,14 +99,14 @@ var graphdata = {
               }
               ]);
 
-              var url = "http://github.com/api/v2/json/repos/show/pauldmccarthy?callback=?";
+              var url = "https://api.github.com/users/pauldmccarthy/repos";
 
               $.getJSON(url, function(repos) {
 
                 repos.repositories.map(function(r) {
                   addChildren(d,layout,[
-                  { nodeName : r.name
-                  , link     : r.url
+                  { nodeName : r.full_name
+                  , link     : r.html_url
                   , desc     : r.description
                   }
                   ]);
