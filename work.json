@@ -60,30 +60,23 @@
       "links":[]
     },
     {
-      "title":"Path-sharing: a new betweenness measure for community identification in networks (IEEE CEC, June 2012)",
-      "desc":"I became obsessed with graph based community/cluster identification for a short while, and came up with a little equation which gives an indication of the strength that the edges in a graph join clusters. The paper was published at the IEEE Congress on Evolutionary Computation, held in Brisbane, June 2012. I haven't really had time to apply community identification to my PhD work, so am not quite sure if this will even make it into my thesis. It was fun though. I also presented this poster at the NZCSRSC 2012 student conference, held at Otago.",
+      "title":"IEEE World Congress on Computational Intelligence (WCCI), Brisbane, June 2012",
+      "desc":"I presented two posters at WCCI - one at the Congress on Computational Intelligence (CEC), and one at the Joint Conference on Neural Networks (IJCNN). I became obsessed with graph based community/cluster identification for a short while, and came up with a little equation which gives an indication of the strength that the edges in a graph join clusters. The paper was published at the CEC. I  haven't really had time to apply community identification to my PhD work, so am not quite sure if this will even make it into my thesis. It was fun though. I also presented this poster at the NZCSRSC 2012 student conference, held at Otago. The second poster gave an overview of the ways in which I am applying graph theory to the analysis of functional connectivity in fMRI data.",
       "resources":[
-        { "title":"paper",
+        { "title":"Path-sharing paper",
           "href":"docs/brisbane_cec_2012_path_sharing_paper.pdf"
         },
-        { "title":"poster",
+        { "title":"Path-sharing poster",
           "href":"docs/brisbane_cec_2012_path_sharing_poster.pdf"
-        }
-      ],
-      "links":[]
-    },
-    {
-      "title":"Graph theoretical analysis of functional connectivity in the brain (IEEE IJCNN, June 2012)",
-      "desc":"Whilst in Brisbane for the IEEE CEC, I also presented a poster giving an overview of the ways in which I am applying graph theory to the analysis of functional connectivity in fMRI data.",
-      "resources":[
-        { "title":"poster",
+        },
+        { "title":"Functional connectivity poster",
           "href":"docs/brisbane_ijcnn_2012_poster.pdf"
         }
       ],
       "links":[]
     },
     {
-      "title":"Statistical analysis of fMRI data",
+      "title":"Friday AI 4-5, 8 June 2012: Statistical analysis of fMRI data",
       "desc":"A presentation I gave to colleagues in the AI lab, in June 2012.",
       "resources":[
         { "title":"presentation",
@@ -91,7 +84,32 @@
         }
       ],
       "links":[]
-    }
+    },
+    {
+      "title":"Science Notes Otago Radio show, June 2012",
+      "desc":"A radio interview I did with Dave McMorran, talking about my PhD work.",
+      "resources":[
+        { "title":"interview",
+          "href":"docs/sciencenotes.mp3"
+        }
+      ],
+      "links":[
+        {
+          "title":"Science notes Otago"
+          "href":"http://sciencenotesotago.wordpress.com/"
+        }
+      ]
+    },
+    {
+      "title":"30th Australasian Winter Conference on Brain Research (AWCBR), Queenstown, August 2012",
+      "desc":"I presented my latest results in a poster at the AWCBR.",
+      "resources":[
+        { "title":"poster",
+          "href":"docs/awcbr_2012_poster.pdf"
+        }
+      ],
+      "links":[]
+    },   
   ]
 }
 
