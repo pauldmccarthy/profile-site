@@ -32,59 +32,31 @@ var graphdata = {
     , click       : function(d,layout) {
         addChildren(d,layout, [
 
-          { nodeName    : "posterous"
+          { nodeName    : "small adventures"
           , childnodes  : []
           , childlinks  : []
           , click       : function(d,layout) {
               addChildren(d, layout, [
-              { nodeName  : "http://paulmcc.posterous.com/"
-              , link      : "http://paulmcc.posterous.com/"
+              { nodeName  : "http://pauldmccarthy.github.com/"
+              , link      : "http://pauldmccarthy.github.com/"
               , desc      : "A blog where I write about tramps, rides, and other things."
               }
               ]);
 
-              /*
-               * when posterous provides a JSON interface, we can
-               * just use $.getJSON. Until then, I'm using the 
-               * technique (and the pipe) to turn an rss file 
-               * into a JSON object, as described here:
-               * 
-               * http://theezpzway.com/2009/5/1/how-to-build-a-personal-mashup-page-with-jquery
-               */
+              var post_json  = "http://pauldmccarthy.github.io/atom.jsonp?callback=atom_jsonp";
+              var atom_jsonp = function(posts) {
 
-              var rss  = "http://paulmcc.posterous.com/rss.xml";
-              var pipe = "http://pipes.yahoo.com/pipes/pipe.run?_id=NvfW_c9m3hGRjX4hoRWqPg&_render=json&_callback=?&feed=";
-
-              $.getJSON(pipe+rss, function(json) {
-                items = json.value.items;
-
-                for (var i = 0; i < 5 && i < items.length; i++) {
-                  var desc = items[i].description;
-                  desc     = desc.substring(0, desc.indexOf("<p><a rel=\"nofollow"));
-
+                posts.each(function(post) {
                   addChildren(d,layout, [
-                  { nodeName : items[i].pubDate.substring(0,16) + ": " + items[i].title
-                  , link     : items[i].link
-                  , desc     : desc
+                  { nodeName : post.title
+                  , link     : post.link
+                  , desc     : post.content
                   }
                   ]);
-                }
-              });
+                });
+              };
 
-              /*
-              var url = "http://posterous.com/api/readposts?site_id=197268&num_posts=1";
-
-              $.getJSON(url, function(xml) {
-
-                var x = $(xml);
-
-                var title = x.find("title");
-                var link  = x.find("link");
-
-                nodes[1].nodeName = title;
-                nodes[1].link     = link;
-                layout.render();
-              });*/
+              $.getJSON(post_json, atom_jsonp);
             }
           }
 
@@ -99,11 +71,11 @@ var graphdata = {
               }
               ]);
 
-              var url = "https://api.github.com/users/pauldmccarthy/repos";
+              var url = "https://api.github.com/users/pauldmccarthy/repos?callback=?";
 
               $.getJSON(url, function(repos) {
 
-                repos.repositories.map(function(r) {
+                repos.data.map(function(r) {
                   addChildren(d,layout,[
                   { nodeName : r.full_name
                   , link     : r.html_url
@@ -148,7 +120,7 @@ var graphdata = {
           , click       : function(d,layout) {
 
               var nodes = [
-                { nodeName : "pauld.mccarthy@gmail.com" }
+                { nodeName : "pauldmccarthy@gmail.com" }
               , { nodeName : "pmccarthy@cs.otago.ac.nz" }
               , { nodeName : "hobbies" 
                 , childnodes : []
