@@ -37,26 +37,23 @@ var graphdata = {
           , childlinks  : []
           , click       : function(d,layout) {
               addChildren(d, layout, [
-              { nodeName  : "http://pauldmccarthy.github.com/"
-              , link      : "http://pauldmccarthy.github.com/"
-              , desc      : "A blog where I write about tramps, rides, and other things."
-              }
+                { nodeName  : "http://pauldmccarthy.github.com/"
+                , link      : "http://pauldmccarthy.github.com/"
+                , desc      : "A blog where I write about tramps, rides, and other things."
+                }
               ]);
 
-              var post_json  = "http://pauldmccarthy.github.io/atom.jsonp?callback=atom_jsonp";
-              var atom_jsonp = function(posts) {
+              $.get("blogproxy.php", function(xml) {
 
-                posts.each(function(post) {
+                $(xml).find("entry").each(function(post) {
                   addChildren(d,layout, [
-                  { nodeName : post.title
-                  , link     : post.link
-                  , desc     : post.content
-                  }
+                    { nodeName : $(this).find("title").text()
+                    , link     : $(this).find("link").attr("href")
+                    , desc     : $(this).find("content").html()
+                    }
                   ]);
                 });
-              };
-
-              $.getJSON(post_json, atom_jsonp);
+              });
             }
           }
 
