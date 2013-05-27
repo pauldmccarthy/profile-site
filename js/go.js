@@ -106,7 +106,11 @@ var graphdata = {
                 var childnodes = [];
 
                 childnodes = stats.map(function(s) {
-                  return {nodeName : s.created_at.substring(0,10) + ": " + s.text};
+                  return {
+                    nodeName : s.text
+                  , link     : "https://twitter.com/pauldmccarthy/status/" + s.id_str
+                  , desc     : s.created_at.substring(0,10)
+                  };
                 });
                 addChildren(d,layout,childnodes);
               });
@@ -240,17 +244,14 @@ drawGraph = function() {
     .fillStyle("#ddddff")
     .event("mousedown",  pv.Behavior.pan());
 
-  var stat = vis.add(pv.Label)
-    .left(windowx/2)
-    .top(40)
-    .textAlign("center");
+
 
   var layout = vis.add(pv.Layout.Force)
     .nodes(graphdata.nodes)
     .links([])
-    .springLength(100)
+    .springLength(150)
     .chargeConstant(-20)
-    .bound(true);
+    .bound(false);
 
   layout.link.add(pv.Line)
     .lineWidth(5);
@@ -400,7 +401,7 @@ addChildren = function(parent, layout, childnodes) {
     var px, py, ppx, ppy;
     px  = parent.x;
     py  = parent.y;
-    ppx = parent.parent ? parent.parent.x : windowx /2;
+    ppx = parent.parent ? parent.parent.x : windowx/2;
     ppy = parent.parent ? parent.parent.y : windowy/2;
 
     childnodes[i].parent = parent;
