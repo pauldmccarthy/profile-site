@@ -3,7 +3,7 @@
  *
  * Author: Paul McCarthy <pauld.mccarthy@gmail.com>
  */
-
+var atom_jsonp;
 $(document).ready(function() {
 
 var drawGraph;
@@ -43,17 +43,18 @@ var graphdata = {
                 }
               ]);
 
-              $.get("blogproxy.php", function(xml) {
-
-                $(xml).find("entry").each(function(post) {
+              var url = "http://pauldmccarthy.github.com/atom.js";
+              atom_jsonp = function(posts) {
+                posts.map(function(post) {
                   addChildren(d,layout, [
-                    { nodeName : $(this).find("title").text()
-                    , link     : $(this).find("link").attr("href")
-                    , desc     : $(this).find("content").html()
-                    }
-                  ]);
+                  { nodeName : post.title
+                  , link     : post.link
+                  , desc     : $('<div/>').html(post.content).text()
+                  }]);
                 });
-              });
+              };
+
+              $.getScript(url);
             }
           }
 
