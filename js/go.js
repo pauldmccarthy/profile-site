@@ -251,7 +251,7 @@ drawGraph = function() {
     .links([])
     .springLength(150)
     .chargeConstant(-20)
-    .bound(false);
+    .bound(true);
 
   layout.link.add(pv.Line)
     .lineWidth(5);

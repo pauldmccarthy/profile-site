@@ -109,6 +109,16 @@
         }
       ],
       "links":[]
+    },
+    {
+      "title":"Otago CS/IS Seminar: Functional network analysis of aging and Alzheimer's Disease",
+      "desc":"A talk I gave to colleagues at Otago.",
+      "resources":[
+        { "title":"Link to video",
+          "href":"http://www.cs.otago.ac.nz/csis-seminars/videos/17-May-2013.mp4"
+        }
+      ],
+      "links":[]
     }
   ]
 }
